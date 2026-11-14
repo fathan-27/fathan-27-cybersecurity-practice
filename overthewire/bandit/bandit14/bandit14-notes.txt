@@ -1,0 +1,3 @@
+- temukan password di folder root, lebih tepatnya di folder /etc/bandit_pass/ dan nama file bandit14
+- gunakan perinth nc localhost 30000 untuk membuka komunikasi ke port 30000 di localhost (pastikan masih di ssh bandit14, tidak perlu keluar)
+- setelah terhubung jalur komunikasi terbuka, masukan password bandit14, password bandit15 akan diberikan

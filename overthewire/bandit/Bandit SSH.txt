@@ -1,0 +1,3 @@
+ssh -p 2220 <username>@bandit.labs.overthewire.org
+
+username: bandit<level> example: bandit15

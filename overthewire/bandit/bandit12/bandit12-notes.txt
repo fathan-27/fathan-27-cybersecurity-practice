@@ -1,0 +1,3 @@
+- /home/bandit12/data.txt (data.txt location)
+- /tmp/tmp.xxxxxxxxxx, result from command mktemp -d, it only temporaly for dekompresing file data.txt, maybe it cannot be reused.
+- in this level, user needs to dekompres file several times until the file format bacome readable ASCII

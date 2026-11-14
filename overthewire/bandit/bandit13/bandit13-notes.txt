@@ -1,0 +1,4 @@
+- target : akses bandit14 dengan kunci ssh, bukan password
+- di level ini player membutuhkan perintah scp atau lebih spesifiknya scp -P 2220 bandit13@bandit.labs.overthewire.org:<nama file yang ingin diambil> <lokasi folder untuk menerima file>, ini akan dipakai untuk mengambil file sshkey.private agar kita bisa masuk ke ssh bandit14 dan mencari password untuk level berikutnya
+-file sshkey.private adalah file identitas ssh yang akan dipakai untuk masuk ke bandit14
+- ssh -p 2220 -i sshkey.private bandit14@bandit.labs.overthewire.org, ini digunakan untuk masuk ke bandit14, -i digunakan jika ingin menggunakan file identitas
